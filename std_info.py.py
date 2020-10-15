@@ -73,7 +73,7 @@ def login():
                                 l2.place(x=80, y=200)
 
                                 e2 = Entry(width=20, textvariable=name)
-                                e2.place(x=250, y=200)
+                                e2.place(x=250, y=205)
 
                                 l2 = Label(text="Email", font=('Times New Roman', '15'))
                                 l2.place(x=80, y=230)
@@ -219,7 +219,7 @@ def login():
         b1.place(x=90, y=130)
         b2 = Button(ob1,text="cancel", width=15, command=cancel)
         b2.place(x=230, y=130)
-        b3=Button(ob1,width=35 ,text= "forgot password ?",command=fp)
+        b3=Button(ob1,width=35 ,text= "forgot password?",command=fp)
         b3.place(x=90, y=160)
         ob1.mainloop()
 
@@ -308,7 +308,7 @@ def register():
     l8 = Label(obj, text="ENTER FATHER'S NAME", background="#CBCBCB")
     l8.place(x=100, y=80)
     l3 = Label(obj,text="ENTER YOUR EMAIL", background="#CBCBCB")
-    l3.place(x=100, y=110)
+    l3.place(x=100, y=111)
     l4 = Label(obj,text="ENTER MOBILE NO", background="#CBCBCB")
     l4.place(x=100, y=140)
     l5 = Label(obj,text="ENTER USERNAME", background="#CBCBCB")
